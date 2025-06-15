@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: windows-2025
+  vmImage: dev-cs-sh-ws2025
 
 variables:
   buildConfiguration: 'Release'
