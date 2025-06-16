@@ -6,8 +6,10 @@
 trigger:
 - master
 
-pool:
-  vmImage: dev-cs-sh-ws2025
+pool: 
+  name: dev-cs-sh-ws2025
+  vmImage: cs-build-WS2025
+
 
 variables:
   buildConfiguration: 'Release'
